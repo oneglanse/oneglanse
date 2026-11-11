@@ -588,7 +588,7 @@ export default function Prompts() {
 				<DialogContent
 					className={cn(
 						formDialogContentClassName,
-						"max-h-[min(100dvh-1.5rem,42rem)] max-w-lg grid-rows-[auto,minmax(0,1fr),auto]",
+						"max-h-[min(100dvh-1.5rem,42rem)] max-w-lg grid-rows-[auto_minmax(0,1fr)_auto]",
 					)}
 				>
 					<DialogHeader className={formDialogHeaderClassName}>
@@ -639,7 +639,7 @@ export default function Prompts() {
 									onChange={(e) => setBulkInput(e.target.value)}
 									className={cn(
 										formTextareaClassName,
-										"min-h-[180px] resize-none shadow-[0_1px_2px_rgba(15,23,42,0.05),0_16px_36px_-22px_rgba(15,23,42,0.18)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.16),0_18px_40px_-24px_rgba(0,0,0,0.46)]",
+										"min-h-[180px] max-h-[min(50vh,20rem)] resize-none overflow-y-auto shadow-[0_1px_2px_rgba(15,23,42,0.05),0_16px_36px_-22px_rgba(15,23,42,0.18)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.16),0_18px_40px_-24px_rgba(0,0,0,0.46)]",
 									)}
 								/>
 								{bulkInput.trim() &&
