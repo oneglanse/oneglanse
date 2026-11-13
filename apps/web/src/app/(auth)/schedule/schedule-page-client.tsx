@@ -272,7 +272,7 @@ function PromptSelectionCard({ workspaceId }: { workspaceId: string }) {
 				<DialogContent
 					className={cn(
 						formDialogContentClassName,
-						"!max-w-[min(100vw-1.5rem,56rem)] max-h-[min(100dvh-1.5rem,48rem)] grid-rows-[auto,minmax(0,1fr),auto] border-transparent bg-white shadow-[0_20px_70px_-34px_rgba(15,23,42,0.26)] dark:bg-neutral-950 dark:shadow-[0_24px_80px_-36px_rgba(0,0,0,0.58)]",
+						"!max-w-[min(100vw-1.5rem,56rem)] max-h-[min(100dvh-1.5rem,48rem)] grid-rows-[auto_minmax(0,1fr)_auto] border-transparent bg-white shadow-[0_20px_70px_-34px_rgba(15,23,42,0.26)] dark:bg-neutral-950 dark:shadow-[0_24px_80px_-36px_rgba(0,0,0,0.58)]",
 					)}
 				>
 					<DialogHeader
